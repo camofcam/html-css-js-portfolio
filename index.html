@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Camila Silva Villenas | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+        <div class="logo">Portfolio</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#contact">contact</a></li>
+                <li><a href="#about">about me</a></li>
+                <li><a href="#experience">experience</a></li>
+                <li><a href="#projects">projects</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Camila Silva Villenas</div>
+      <div class="hamburger-menu"></div>
+         <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#contact" onclick="toggleMenu()">contact</a></li>
+          <li><a href="#about" onclick="toggleMenu()">about me</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">projects</a></li>
+        </div>
+     </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/C blackwhite.png" alt="Camila Silva Villenas profile picture">
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Camila Silva Villenas</h1>
+        <p class="section__text__p2">Product Designer</p>
+        <div class="btn-container">
+          <button class="btn btn-color-2" onclick="window.open('./assets/curriculum vitae eng.pdf')">
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img src="./assets/linkedin.png" alt="My LinkedIn Profile" class="icon" onclick="location.href='https://www.linkedin.com/in/camilasilvavillenas'">
+          <img src="./assets/behance.png" alt="My Behance Profile" class="icon" onclick="location.href='https://www.behance.net/camilasilvavillenas'">
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in touch</p>
+      <h1 class="title">Contact me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img src="./assets/mail.png" alt="Email icon" class="icon contact-icon">
+          <p><a href="mailto:camilasilvavillenas@gmail.com">camilasilvavillenas@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img src="./assets/telephone.png" alt="Telephone icon" class="icon contact-icon">
+          <p><a href="callto:(+593)982245591">(+593)982245591</a></p>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#about'"/>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get to know more</p>
+      <h1 class="title">About me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="./assets/about me.png" alt="About me picture" class="About pic"/>
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="./assets/experience.png" alt="experience icon" class="icon">
+              <h3>Experience</h3>
+              <p>2+ years <br>Product Designer</p>
+            </div>
+            <div class="details-container">
+              <img src="./assets/education.png" alt="education icon" class="icon">
+              <h3>Education</h3>
+              <p>Licenciatura en Diseño de Productos<br>Pontificia Universidad Católica del Ecuador</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>As an Ecuadorian junior designer, I blend my passion for art and technology, using my creativity and problem-solving skills to simplify users' lives.<br>This journey began with a love for working on products that also sparked an interest in the digital realm, which led me to expand my expertise into the exciting field of interaction design.</p>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore my</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Design skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>UX -UI design</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Product-centric design</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>User-centered design</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Sustainable design and Ecodesign</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Participatory design and Co-creation</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Service design</h3>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Strategic design</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Software skills</h2>
+            <div class="article-container">
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Rendering</h3>
+                  <p>Keyshot</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Adobe</h3>
+                  <p>Illustrator | Photoshop | Lightroom | Brigde</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Autodesk</h3>
+                  <p>3ds Max | Fusion 360 | Slicer | Inventor</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>UX|UI Design softwares</h3>
+                  <p>Figma | Framer | Miro | Zeplin</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>3D Print</h3>
+                  <p>Meshroom 3D | Ultimaker Cura</p>
+                </div>
+              </article>
+              <article>
+                <img src="./assets/checkmark.png" alt="Experience icon" class="icon">
+                <div>
+                  <h3>Coding Tools</h3>
+                  <p>Github | Visual Studio Code</p>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img src="./assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse my recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/1.png" alt="Project 1" class="project-img">
+          </div>
+          <h2 class="project title">Impulso BCP</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/199170571/Impulso-BCP'">
+              Behance
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.figma.com/proto/IONtXBlftqcIP2svUHTtVr/Impulso-BCP?node-id=5-10&p=f&t=pVIUlRsGgLEPceLf-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=5%3A10'">
+              Live demo
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/2.png" alt="Project 2" class="project-img">
+          </div>
+          <h2 class="project title">La Colorada</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/199170101/La-Colorada'">
+              Behance
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/3.png" alt="Project 3" class="project-img">
+          </div>
+          <h2 class="project title">Active Steps</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/199169581/Active-Steps'">
+              Behance
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/4.png" alt="Project 4" class="project-img">
+            </div>
+            <h2 class="project title">Imbacachi</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/199169913/Imbacachi'">
+                Behance
+              </button>
+            </div>
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/5.png" alt="Project 5" class="project-img">
+            </div>
+            <h2 class="project title">Panela mold</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/216744295/Panela-cane-sugar-Mold'">
+                Behance
+              </button>
+            </div>
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/6.png" alt="Project 6" class="project-img">
+            </div>
+            <h2 class="project title">Karu</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/106430339/Karu-Reciclado-Recycle'">
+                Behance
+              </button>
+            </div>
+            </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/7.png" alt="Project 7" class="project-img">
+            </div>
+            <h2 class="project title">Insight 2024</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/200045019/Insight-2024'">
+                Behance
+              </button>
+            </div>
+            </div>
+          <div class="details-container color-container">
+            </div>
+        </div>
+      </div>
+      <p class="section__text__p1">Discover the world through my</p>
+      <h1 class="title">Photography</h1>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/23.png" alt="Project 8" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878567/faces'">
+              Behance
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/27.png" alt="Project 9" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878731/textures'">
+              Behance
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/24.png" alt="Project 10" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878771/facial-expressions'">
+              Behance
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/25.png" alt="Project 11" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878841/body-expressions'">
+              Behance
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/28.png" alt="Project 12" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878915/waterfall'">
+              Behance
+            </button>
+          </div>
+          </div>
+          <div class="details-container color-container">
+          <div class="article-container">
+            <img src="assets/29.png" alt="Project 13" class="project-img">
+          </div>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217878975/historic-center'">
+              Behance
+            </button>
+          </div>
+          </div>
+        </div>
+        <div class="about-containers">
+          <div class="details-container color-container">
+            </div>
+            <div class="details-container color-container">
+            <div class="article-container">
+              <img src="assets/26.png" alt="Project 14" class="project-img">
+            </div>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://www.behance.net/gallery/217879077/camera-angles'">
+                Behance
+              </button>
+            </div>
+            </div>
+          <div class="details-container color-container">
+            </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <p>Copyright &#169; 2025 Camila Silva Villenas. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
